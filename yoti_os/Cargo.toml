@@ -1,5 +1,5 @@
 [package]
-name = "blog_os"
+name = "yoti_os"
 version = "0.1.0"
 edition = "2021"
 authors = ["YoTi <yoti1412@yandex.com>"]
