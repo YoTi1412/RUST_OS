@@ -9,3 +9,4 @@ authors = ["YoTi <yoti1412@yandex.com>"]
 
 [dependencies]
 bootloader = "0.9.23"
+volatile = "=0.2.6"
