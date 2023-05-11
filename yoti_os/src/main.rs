@@ -6,24 +6,27 @@
 
 
 use core::panic::PanicInfo;
+use yoti_os::println;
 
 mod vga_buffer;
 mod serial;
 
+
+// this function is called a panic ------
 #[cfg(not(test))]
 #[panic_handler] // called on panic
 fn panic(info: &PanicInfo) -> ! {
     println!("{info}");
     loop{}
 }
+
 #[cfg(test)]
 #[panic_handler]
 fn panic(info: &PanicInfo) -> ! {
-    serial_println!("[failed]\n");
-    serial_println!("Error: {}\n", info);
-    exit_qemu(QemuExitCode::Failed);
-    loop {}
+    yoti_os::test_panic_handler(info)
 }
+// -----------------------------
+
 
 #[no_mangle] // 
 pub extern "C" fn _start() -> ! {
