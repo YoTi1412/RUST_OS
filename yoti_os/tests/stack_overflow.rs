@@ -1,5 +1,6 @@
 #![no_std]
 #![no_main]
+#![feature(abi_x86_interrupt)]
 
 use core::panic::PanicInfo;
 use yoti_os::serial_print;
@@ -15,7 +16,7 @@ lazy_static! {
         unsafe {
             idt.double_fault
                 .set_handler_fn(test_double_fault_handler)
-                .set_stack_index(blog_os::gdt::DOUBLE_FAULT_IST_INDEX);
+                .set_stack_index(yoti_os::gdt::DOUBLE_FAULT_IST_INDEX);
         }
 
         idt
@@ -47,7 +48,7 @@ fn stack_overflow() {
 
 #[panic_handler]
 fn panic(info: &PanicInfo) -> ! {
-    blog_os::test_panic_handler(info)
+    yoti_os::test_panic_handler(info)
 }
 
 extern "x86-interrupt" fn test_double_fault_handler(
