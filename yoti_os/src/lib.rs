@@ -3,6 +3,7 @@
 #![feature(custom_test_frameworks)]
 #![test_runner(crate::test_runner)]
 #![reexport_test_harness_main = "test_main"]
+#![feature(abi_x86_interrupt)]
 
 use core::panic::PanicInfo;
 
@@ -38,9 +39,14 @@ pub fn test_panic_handler(info: &PanicInfo) -> ! {
 
 // entry point for "cargo test"
 
+//start function is used when running cargo test --lib, 
+//since Rust tests the lib.rs completely independently of the main.rs. 
+//We need to call init here to set up an IDT before running the tests.
+
 #[cfg(test)]
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
+    init();
     test_main();
     loop {}
 }
@@ -57,6 +63,7 @@ fn panic(info: &PanicInfo) -> ! {
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 #[repr(u32)]
 
+
 pub enum QemuExitCode {
     Success = 0x10,
     Failed = 0x11,
@@ -71,6 +78,10 @@ pub fn exit_qemu(exit_code: QemuExitCode) {
     }
 }
 
-pub mod serial;
 pub mod vga_buffer;
+pub mod serial;
+pub mod interrupts;
 
+pub fn init() {
+    interrupts::init_idt();
+}
