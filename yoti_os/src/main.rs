@@ -19,7 +19,10 @@ pub extern "C" fn _start() -> ! {
     test_main();
     
     println!("It did not crash!");
-    loop {}
+    loop {
+        use yoti_os::print;
+        print!("-");
+    }
 }
 
 // this function is called a panic ------
