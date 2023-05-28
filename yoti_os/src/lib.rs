@@ -37,6 +37,13 @@ pub fn test_panic_handler(info: &PanicInfo) -> ! {
     hlt_loop();
 }
 
+
+#[cfg(test)]
+use bootloader::{entry_point, BootInfo};
+
+#[cfg(test)]
+entry_point!(test_kernel_main);
+
 // entry point for "cargo test"
 
 //start function is used when running cargo test --lib, 
@@ -44,8 +51,7 @@ pub fn test_panic_handler(info: &PanicInfo) -> ! {
 //We need to call init here to set up an IDT before running the tests.
 
 #[cfg(test)]
-#[no_mangle]
-pub extern "C" fn _start() -> ! {
+fn test_kernel_main(_boot_info: &'static BootInfo) -> ! {
     init();
     test_main();
     hlt_loop();
@@ -96,3 +102,6 @@ pub fn hlt_loop() -> ! {
         x86_64::instructions::hlt();
     }
 }
+
+
+pub mod memory;

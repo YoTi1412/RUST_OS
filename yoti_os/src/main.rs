@@ -7,29 +7,30 @@
 
 use core::panic::PanicInfo;
 use yoti_os::println;
+use bootloader::{BootInfo, entry_point};
 
-#[no_mangle]
-pub extern "C" fn _start() -> ! {
+entry_point!(kernel_main);
+
+fn kernel_main(boot_info: &'static BootInfo) -> ! {
+    use yoti_os::memory::active_level_4_table;
+    use x86_64::VirtAddr;
+
     println!("Hello World{}", "!");
-
     yoti_os::init();
-    use x86_64::registers::control::Cr3;
 
-    let (level_4_page_table, _) = Cr3::read();
-    println!("Level 4 page table at: {:?}", level_4_page_table.start_address());
+    let phys_mem_offset = VirtAddr::new(boot_info.physical_memory_offset);
+    let l4_table = unsafe { active_level_4_table(phys_mem_offset) };
 
-    let ptr = 0x204d26 as *mut u32;
+    for (i, entry) in l4_table.iter().enumerate() {
+        if !entry.is_unused() {
+            println!("L4 Entry {}: {:?}", i, entry);
+        }
+    }
 
-    unsafe { let x = *ptr; }
-    println!("read worked");
-    
-    unsafe { *ptr = 42; }
-    println!("write worked");
-
-
+    // as before
     #[cfg(test)]
     test_main();
-    
+
     println!("It did not crash!");
     yoti_os::hlt_loop();
 }
