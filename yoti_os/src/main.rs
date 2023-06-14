@@ -27,7 +27,6 @@ fn kernel_main(boot_info: &'static BootInfo) -> ! {
 
     allocator::init_heap(&mut mapper, &mut frame_allocator).expect("heap initialization failed");
 
-    // let x = Box::new(41);
     let heap_value = Box::new(41);
     println!("heap_value at {:p}", heap_value);
 
