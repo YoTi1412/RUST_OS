@@ -1,7 +1,7 @@
 cargo:rerun-if-changed=/Users/info/Desktop/RUST_OS/yoti_os/Cargo.toml
 cargo:rustc-link-search=native=/Users/info/Desktop/RUST_OS/yoti_os/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader-a2bb3f71152626c2/out
-cargo:rustc-link-lib=static=kernel_bin-heap_allocation-7c27f86add10acc0
+cargo:rustc-link-lib=static=kernel_bin-yoti_os
 cargo:rerun-if-env-changed=KERNEL
 cargo:rerun-if-env-changed=KERNEL_MANIFEST
-cargo:rerun-if-changed=/Users/info/Desktop/RUST_OS/yoti_os/target/x86_64-blog_os/debug/deps/heap_allocation-7c27f86add10acc0
+cargo:rerun-if-changed=/Users/info/Desktop/RUST_OS/yoti_os/target/x86_64-blog_os/debug/yoti_os
 cargo:rerun-if-changed=build.rs
