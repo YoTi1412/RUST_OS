@@ -17,6 +17,7 @@ fn kernel_main(boot_info: &'static BootInfo) -> ! {
     use x86_64::VirtAddr;
     use yoti_os::allocator;
     use yoti_os::memory::{self, BootInfoFrameAllocator};
+    use yoti_os::task::{Task, simple_executor::SimpleExecutor};
 
     println!("Hello World{}", "!");
     yoti_os::init();
@@ -24,8 +25,12 @@ fn kernel_main(boot_info: &'static BootInfo) -> ! {
     let phys_mem_offset = VirtAddr::new(boot_info.physical_memory_offset);
     let mut mapper = unsafe { memory::init(phys_mem_offset) };
     let mut frame_allocator = unsafe { BootInfoFrameAllocator::init(&boot_info.memory_map) };
+    let mut executor = SimpleExecutor::new();
+    executor.spawn(Task::new(example_task()));
+    executor.run();
 
     allocator::init_heap(&mut mapper, &mut frame_allocator).expect("heap initialization failed");
+
 
     let heap_value = Box::new(41);
     println!("heap_value at {:p}", heap_value);
@@ -53,6 +58,15 @@ fn kernel_main(boot_info: &'static BootInfo) -> ! {
 
     println!("It did not crash!");
     yoti_os::hlt_loop();
+}
+
+async fn async_number() -> u32 {
+    42
+}
+
+async fn example_task() {
+    let number = async_number().await;
+    println!("async number: {}", number);
 }
 
 // this function is called a panic ------
