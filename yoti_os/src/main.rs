@@ -4,6 +4,7 @@
 #![test_runner(yoti_os::test_runner)]
 #![reexport_test_harness_main = "test_main"]
 
+use yoti_os::task::{Task, simple_executor::SimpleExecutor};
 use bootloader::{entry_point, BootInfo};
 use core::panic::PanicInfo;
 use yoti_os::println;
@@ -17,7 +18,6 @@ fn kernel_main(boot_info: &'static BootInfo) -> ! {
     use x86_64::VirtAddr;
     use yoti_os::allocator;
     use yoti_os::memory::{self, BootInfoFrameAllocator};
-    use yoti_os::task::{Task, simple_executor::SimpleExecutor};
 
     println!("Hello World{}", "!");
     yoti_os::init();
@@ -25,12 +25,12 @@ fn kernel_main(boot_info: &'static BootInfo) -> ! {
     let phys_mem_offset = VirtAddr::new(boot_info.physical_memory_offset);
     let mut mapper = unsafe { memory::init(phys_mem_offset) };
     let mut frame_allocator = unsafe { BootInfoFrameAllocator::init(&boot_info.memory_map) };
-    let mut executor = SimpleExecutor::new();
-    executor.spawn(Task::new(example_task()));
-    executor.run();
 
     allocator::init_heap(&mut mapper, &mut frame_allocator).expect("heap initialization failed");
 
+    let mut executor = SimpleExecutor::new();
+    executor.spawn(Task::new(example_task()));
+    executor.run();
 
     let heap_value = Box::new(41);
     println!("heap_value at {:p}", heap_value);
