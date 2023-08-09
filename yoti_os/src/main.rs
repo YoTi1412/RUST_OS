@@ -4,7 +4,6 @@
 #![test_runner(yoti_os::test_runner)]
 #![reexport_test_harness_main = "test_main"]
 
-use yoti_os::task::{Task, simple_executor::SimpleExecutor};
 use bootloader::{entry_point, BootInfo};
 use core::panic::PanicInfo;
 use yoti_os::println;
@@ -14,6 +13,7 @@ entry_point!(kernel_main);
 extern crate alloc;
 
 use yoti_os::task::keyboard;
+use yoti_os::task::{Task, executor::Executor};
 
 fn kernel_main(boot_info: &'static BootInfo) -> ! {
     use alloc::{boxed::Box, rc::Rc, vec, vec::Vec};
@@ -30,7 +30,7 @@ fn kernel_main(boot_info: &'static BootInfo) -> ! {
 
     allocator::init_heap(&mut mapper, &mut frame_allocator).expect("heap initialization failed");
 
-    let mut executor = SimpleExecutor::new();
+    let mut executor = Executor::new(); // new
     executor.spawn(Task::new(example_task()));
     executor.spawn(Task::new(keyboard::print_keypresses()));
     executor.run();
