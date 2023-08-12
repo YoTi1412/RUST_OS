@@ -8,6 +8,16 @@ use bootloader::{entry_point, BootInfo};
 use core::panic::PanicInfo;
 use yoti_os::println;
 
+static LOGO: &str = r"
+               __  .__________    _________
+ ___.__. _____/  |_|__\_____  \  /   _____/
+<   |  |/  _ \   __\  |/   |   \ \_____  \ 
+ \___  (  <_> )  | |  /    |    \/        \
+ / ____|\____/|__| |__\_______  /_______  /
+ \/   
+ ";
+
+
 entry_point!(kernel_main);
 
 extern crate alloc;
@@ -21,7 +31,8 @@ fn kernel_main(boot_info: &'static BootInfo) -> ! {
     use yoti_os::allocator;
     use yoti_os::memory::{self, BootInfoFrameAllocator};
 
-    println!("Hello World{}", "!");
+    println!("{}", LOGO);
+    println!("Welcome to yotiOS!");
     yoti_os::init();
 
     let phys_mem_offset = VirtAddr::new(boot_info.physical_memory_offset);
