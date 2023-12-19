@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8974d424-bace-493d-b41a-bcbc9dc94347" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/deps/libyoti_os-1647dc7f681b9c68.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/target/x86_64-blog_os/debug/deps/libyoti_os-1647dc7f681b9c68.rlib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/deps/libyoti_os-1647dc7f681b9c68.rmeta" beforeDir="false" afterPath="$PROJECT_DIR$/target/x86_64-blog_os/debug/deps/libyoti_os-1647dc7f681b9c68.rmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/1202aacjk7wuviff.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/120ojt2o9s4hroam.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/137r6sd3irwrlp3n.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/146o4934qekefe09.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/168o0eshv0brqawk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/18lnjbgr2bexsgqu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/19qrg2soso8coaut.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/1aojrpjguzanghc3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/1b7nu9ye6ll3gbm0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/1gn3sbjlrvi6aq3c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/1lgyd7dvdqdysjs7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/1nkvvcjeahvh42tn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/1r0m2yxczevlmtbx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/1uc9gqvwkl8kk6x7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/1vvf1gy189d2xy5u.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/1wnwvx1zbevoimcz.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/1xigx9vas3w02zt6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/21rwxy48ngwgvm75.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2489du1wpy6d2frl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/252tde82duqkhkkl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/26sigu7162n2kmmv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/26w1upg8pahm81lh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/27xkpg3qn9xtc1jc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/29rywoxzxmzqw6m4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2a979z29bc856l2g.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2atglzms1kj1owxf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2dcz3w0mobipwkdd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2dnjbkssr2it3enx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2ebvceb9tlquwx7f.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2epb4w5wcrbukgke.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2f2np6vlo7njsxwo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2gaxteod7kzdh0jc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2gewvo3k809y49gs.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2h1tro5drhicycys.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2j350uhzt65xn7xf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2j3r6s1wdzawxpi8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2mogqs2ad5ze1ktw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2ni2m3vpgc2e06oc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2q9mh8n24uyui2co.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2tcebd02stf8kvff.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2tt0ygfvg16rifma.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2v60r7z7ksd1h767.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2vv7bpf9e71qqraz.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/2wttx1qbuesmin1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/33mdn3nx87nee5xq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/349ktekcuwyyu0wb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/34h3ab9t0gwakgvr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/34mfy1t93ytekth5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/3528mvhox42nko7g.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/3c73eqtovgc1fcj8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/3cj0efujpx0864nh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/3eeovmom07swkzpi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/3jnyc9wbmsku4vkn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/3kndelxu98m2zmrm.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/3ljr0kgg293pjs3k.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/3mpfanyash4ai3h0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/3nkokbrmkiyo0ugi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/3nuns9zp4i2oze1d.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/3poyfs9fw189s8lw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/3scau7r2ej3aye4t.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/3thua82msliss5hi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/3uwuz5am75atdhqo.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/3w9kefr2lf48u2ff.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/42jdjanqguairprt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/431ibi4a0qxgsyo3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/46pych9l9vjj7p7v.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4ax5o693um0utrm7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4bi8tuxvd836i2ye.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4c6lue2q2bnld1d4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4crimo6po39cd2zs.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4d82dz8rr0vrdnx6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4fice137vyna6j4b.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4fkju8xa4ri7ra9b.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4fmibjz80ct5usei.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4g82y0jbzt1lswri.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4gmvonuc9nr99sv0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4jro2ln3oxu9e58i.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4khya8f3ax9799vl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4mnavxus3cdcr7s3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4nnonkx2eiixndlg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4qmv2stvhiyjcakk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4r9islf8qvjjcq6t.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4rghd4do5krhm7fy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4soxfnxxhj2sx6k6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4tpbanzdu9zcs1k0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4uc7drgda3noyrbu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4vo72l21a7jahgnw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/4wgiuxfvvahlt600.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/50infe149cr5ryi9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/50ou25q8mhjy8nvz.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/51bp4wwdzg5iy8vb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/53niwhlsi3ycfu88.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/54af82uyq21udj6g.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/54ppoxpxhsbxtkz1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/55hm9igiq5c1f40e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/5678j0eruij45oiw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/5a9en4geftqpfcqk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/5bu3nwju7gbxa6p4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/5cqrb3z1zu2v6qng.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/5d9go7wmmn2y7ryn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/5dm8wecioxvlghxn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/5euxel5dyye7tzyh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/5gc0rne19pe482ve.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/64gz4q4nq2l3z0g.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/7za8p4msglbegmu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/82q5vfyivn458x1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/9y5uaew2wm8r2oe.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/ae7r19nfzpf736e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/breenyg7z09gxqf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/cnjuuocgs2z15qf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/e4ujkvn20akmi2o.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/gyuvywqgvpuwyp2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/hb4hrt1ivo0e4od.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/jltkcljtlazmnk5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/kwva5s7ki7mfivr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/lbpd5b68asyzgee.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/o1w9z9eoq6zcxyn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/obfvg5hin1erfmf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/qrrl17g9txwl0rz.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/rr6d398rr7vmlu8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/uedwsufpipn1gs6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/vwoc396p9r1eah8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/xbrga0vfnvb4iuy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf-1cudelz3it2tg/xhu469pnr5n72si.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-1gbm2tq0vr5uq/s-gnmk3mhh04-ilfpf.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/11wpdo1pq0zdqjf0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/18j18qrmvlupa3d0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/1f60gmt4bqgvnhpb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/1m66f2pc4eegtxdf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/1s24udd4v089xka1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/1smkdlhlv2kgwqqw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/1t3gs7cee6xq8ybr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/1yrw9pd5dhwm6cqi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/279kc0nodrk4aggq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/2avnjrxyjeyditwv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/2dpnvrtqw8agclmj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/2e5rg14rdsunuza3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/2j7qei9sz4dvs4fl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/2jb21n8kw238ol6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/2nj391n2c6ohjp6c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/30aagm014b6triya.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/34139wkrf74hcq2j.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/378sanl7961l4384.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/38keupkeelpl0pki.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/38rwwqju33oxpmbv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/3co6ba08taho3ts.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/3mv6tiw63brh7tgg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/3tw1iqqimu142pup.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/3udwt168sdgldzll.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/3xw816cncwhjr2u2.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/3y4osjas9fyoa2r6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/3yx524srp2f1tp5e.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/45l2u7fvibs9zktq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/46c6018qthssapq4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/49nz6z2h7gh6ubve.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/4kfymbxy710d8x0l.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/4sejk8ya70vhndf0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/52sognk44sfl7z3d.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/ndjfe0aub8qshc6.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/p1ujlrrx8frhwfj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00-27u6ztd4tp0cb/xthsmmytz29tbbq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/incremental/yoti_os-3i0x92s47qito/s-gnpomfo5s3-pikp00.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/x86_64-blog_os/debug/libyoti_os.rlib" beforeDir="false" afterPath="$PROJECT_DIR$/target/x86_64-blog_os/debug/libyoti_os.rlib" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="trcrik92" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2XXOzxJOspqjtSZe2XJTnVnfCrC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8974d424-bace-493d-b41a-bcbc9dc94347" name="Changes" comment="" />
+      <created>1698772230319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698772230319</updated>
+      <workItem from="1698772233774" duration="181000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
